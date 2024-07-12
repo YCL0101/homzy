@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "鸿盟分享",
+    "slug": "homclub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Images/icon/icon_120.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.homzy.homclub",
+      "jsEngine": "hermes",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        "android.permission.MANAGE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/Images/icon/icon_120.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f47f2a2-735a-4ffc-8538-9afcd1e80e39"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "owner": "yuchenglong"
+  }
+}
